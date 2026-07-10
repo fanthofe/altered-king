@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="StatusEffect" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/status_effects/status_effect.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"paralysis"
+display_name = "Paralysie"
+duration = 3.5
+tick_interval = 0.0
+tick_damage = 0
+immobilizes = true
+tint = Color(0.55, 0.65, 1, 1)
+reapply_cooldown = 6.0
+area_radius = 88.0

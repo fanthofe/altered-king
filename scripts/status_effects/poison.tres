@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="StatusEffect" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/status_effects/status_effect.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"poison"
+display_name = "Poison"
+duration = 9.0
+tick_interval = 1.0
+tick_damage = 1
+immobilizes = false
+tint = Color(0.45, 0.85, 0.35, 1)
+reapply_cooldown = 0.0
+area_radius = 70.0

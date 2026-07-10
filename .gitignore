@@ -1,0 +1,10 @@
+# Cache et fichiers générés par l'éditeur Godot.
+.godot/
+*.translation
+
+# Assets tiers dont la licence interdit la redistribution (voir README).
+assets/sprites/references/
+
+# Python
+__pycache__/
+*.pyc
